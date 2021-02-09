@@ -22,7 +22,7 @@ const styles = {
   },
 };
 function Card(props) {
-  console.log("page :", props.page);
+  const { data, page, rowsPerPage, history } = props;
   return (
     <div className="card " style={styles.container}>
       <div className="card-body">
