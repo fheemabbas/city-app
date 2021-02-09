@@ -1,7 +1,5 @@
 import axios from "axios";
 
-// for Add New Item in Cart
-const header = { "Access-Control-Allow-Origin": "*" };
 export const getdata = (data) => (dispatch) => {
   axios
     .get("https://jsonplaceholder.typicode.com/todos", data)

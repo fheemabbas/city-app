@@ -35,8 +35,8 @@ function Card(props) {
           type="submit"
           onClick={() => {
             props.getpagedata({
-              page: props.page,
-              rowsPerPage: props.rowsPerPage,
+              page: page,
+              rowsPerPage: rowsPerPage,
             });
             history.push("/submit");
           }}

@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { connect } from "react-redux";
 import Grid from "@material-ui/core/Grid";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import Pagination from "./Pagination";
 import { getdata, getpagedata } from "./actions/index";
 import Card from "./Card";

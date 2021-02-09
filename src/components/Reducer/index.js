@@ -3,6 +3,6 @@ import ReducerData from "./redux";
 import ReducerPageData from "./pageReducer";
 
 export default combineReducers({
-  data: ReducerData, // Storing All Cart Data
+  data: ReducerData,
   page: ReducerPageData,
 });
